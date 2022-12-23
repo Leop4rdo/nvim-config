@@ -1,13 +1,14 @@
 local opt = vim.opt
 
 opt.nu = true
-opt.relativenumber = true
+opt.rnu = true
 
 opt.mouse = 'a'
 
 opt.ignorecase = true
 opt.smartcase = true
 opt.hlsearch = false
+opt.incsearch = true
 
 opt.tabstop = 4
 opt.softtabstop = 4
@@ -27,3 +28,9 @@ opt.updatetime = 100
 opt.encoding = "utf-8"
 opt.cursorline = true
 opt.ruler = true
+
+opt.swapfile = false
+opt.backup = false
+opt.updatetime = 50
+
+
