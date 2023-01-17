@@ -1,5 +1,7 @@
 local opt = vim.opt
 
+opt.termguicolors = true
+
 opt.nu = true
 opt.rnu = true
 
@@ -33,4 +35,8 @@ opt.swapfile = false
 opt.backup = false
 opt.updatetime = 50
 
+opt.foldmethod = 'indent'
+opt.foldcolumn = '1'
+opt.foldlevel = 2
 
+vim.cmd('hi normal guibg=none')
