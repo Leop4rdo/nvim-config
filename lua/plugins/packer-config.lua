@@ -39,5 +39,7 @@ return require('packer').startup(function ()
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    use 'jose-elias-alvarez/null-ls.nvim'
+    use('neovim/nvim-lspconfig')
+    -- fse('jose-elias-alvarez/null-ls.nvim')
+    use('MunifTanjim/prettier.nvim')
 end)

@@ -12,11 +12,12 @@ opt.smartcase = true
 opt.hlsearch = false
 opt.incsearch = true
 
+opt.autoindent = true
+
 opt.tabstop = 4
 opt.softtabstop = 4
 opt.shiftwidth = 4
-opt.smarttab = true
-opt.expandtab = true
+opt.expandtab = false
 
 opt.splitbelow = true
 opt.splitright = true
@@ -36,7 +37,7 @@ opt.backup = false
 opt.updatetime = 50
 
 opt.foldmethod = 'indent'
-opt.foldcolumn = '1'
+opt.foldcolumn = '2'
 opt.foldlevel = 2
 
 vim.cmd('hi normal guibg=none')
