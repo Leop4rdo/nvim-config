@@ -6,7 +6,8 @@ local opts = {
 
 vim.g.mapleader = ' '
 
-map('n', '<leader>e', ':NvimTreeToggle<CR>', opts) -- toggle file tree
+-- toggle file tree
+map('n', '<leader>e', ':NvimTreeToggle<CR>', opts) 
 
 -- Maps for saving
 map('n', '<leader>s', ':w<CR>', opts)
@@ -15,4 +16,12 @@ map('n', '<leader>s', ':w<CR>', opts)
 map('v', 'J', ":m '>+1<CR>gv=gv'", {silent = true})
 map('v', 'K', ":m '<-2<CR>gv=gv'", {silent = true})
 
+-- Map for formatting current buffer
 map('n', '<leader>fm', ":lua vim.lsp.buf.formatting()<CR>", opts)
+
+-- Maps for better split navigation
+map('n', '<C-h>', '<C-w>h', opts)
+map('n', '<C-j>', '<C-w>j', opts)
+map('n', '<C-k>', '<C-w>k', opts)
+map('n', '<C-l>', '<C-w>l', opts)
+

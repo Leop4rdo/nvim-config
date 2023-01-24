@@ -40,6 +40,6 @@ return require('packer').startup(function ()
     }
 
     use('neovim/nvim-lspconfig')
-    -- fse('jose-elias-alvarez/null-ls.nvim')
+    use('jose-elias-alvarez/null-ls.nvim')
     use('MunifTanjim/prettier.nvim')
 end)
