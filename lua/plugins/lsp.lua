@@ -17,3 +17,5 @@ lsp.ensure_installed({
 })
 
 lsp.setup()
+
+require('fidget').setup()

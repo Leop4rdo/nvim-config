@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["alternate-toggler"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/alternate-toggler",
+    url = "https://github.com/rmagatti/alternate-toggler"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -103,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["fidget.nvim"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/fidget.nvim",
+    url = "https://github.com/j-hui/fidget.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -134,10 +144,25 @@ _G.packer_plugins = {
     path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
+  ["noice.nvim"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/noice.nvim",
+    url = "https://github.com/folke/noice.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -148,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-notify"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/nvim-notify",
+    url = "https://github.com/rcarriga/nvim-notify"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -178,6 +208,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
+  },
+  ["wildfire.vim"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/wildfire.vim",
+    url = "https://github.com/gcmt/wildfire.vim"
   }
 }
 

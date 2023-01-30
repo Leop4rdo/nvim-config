@@ -40,6 +40,20 @@ return require('packer').startup(function ()
     }
 
     use('neovim/nvim-lspconfig')
-    use('jose-elias-alvarez/null-ls.nvim')
-    use('MunifTanjim/prettier.nvim')
+	use('jose-elias-alvarez/null-ls.nvim')
+	use('MunifTanjim/prettier.nvim')
+
+	use('rmagatti/alternate-toggler')
+	use('windwp/nvim-autopairs')
+	use('mg979/vim-visual-multi')
+	use('gcmt/wildfire.vim')
+	use('tpope/vim-surround')
+	use('j-hui/fidget.nvim')
+	use {
+		"folke/noice.nvim",
+		requires = {
+			"MunifTanjim/nui.nvim",
+			"rcarriga/nvim-notify",
+		}
+	}
 end)

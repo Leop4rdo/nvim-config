@@ -7,7 +7,7 @@ local opts = {
 vim.g.mapleader = ' '
 
 -- toggle file tree
-map('n', '<leader>e', ':NvimTreeToggle<CR>', opts) 
+map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
 
 -- Maps for saving
 map('n', '<leader>s', ':w<CR>', opts)
@@ -24,4 +24,11 @@ map('n', '<C-h>', '<C-w>h', opts)
 map('n', '<C-j>', '<C-w>j', opts)
 map('n', '<C-k>', '<C-w>k', opts)
 map('n', '<C-l>', '<C-w>l', opts)
+
+-- LSP Maps
+map('n', '<leader>N', ':lua vim.diagnostic.goto_prev()<CR>', opts)
+map('n', '<leader>ca', ':lua vim.lsp.buf.code_action()<CR>', opts)
+map('n', '<leader>rn', ':lua vim.lsp.buf.rename()<CR>', opts)
+
+
 
