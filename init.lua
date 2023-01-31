@@ -10,6 +10,7 @@ require('plugins.lualine')
 require('plugins.telescope')
 require('plugins.lsp')
 require('plugins.null-ls')
+require('plugins.treesitter')
 require('plugins.text-helpers')
 require('plugins.noice')
 

@@ -40,11 +40,17 @@ return require('packer').startup(function ()
     }
 
     use('neovim/nvim-lspconfig')
-	use('jose-elias-alvarez/null-ls.nvim')
+	use('jose-elias-alvarez/null-ls.nvim') -- formatting
 	use('MunifTanjim/prettier.nvim')
+
+	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = ':TSUpdate'
+	}
 
 	use('rmagatti/alternate-toggler')
 	use('windwp/nvim-autopairs')
+	use('windwp/nvim-ts-autotag')
 	use('mg979/vim-visual-multi')
 	use('gcmt/wildfire.vim')
 	use('tpope/vim-surround')
