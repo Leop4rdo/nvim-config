@@ -8,7 +8,11 @@ require('nvim-treesitter.configs').setup {
 		"json",
 		"python",
 		"sql",
-		"typescript"
+		"typescript",
+		"help",
+		"tsx",
+		"scss",
+		"prisma"
 	},
 	sync_install = true,
 	highlight = { enable = true, },

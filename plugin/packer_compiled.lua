@@ -191,8 +191,13 @@ _G.packer_plugins = {
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/leonardo/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/Users/leonardoantunes/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["nvim-web-devicons"] = {
     loaded = true,

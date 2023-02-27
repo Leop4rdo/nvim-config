@@ -5,8 +5,6 @@ local formatting = null_ls.builtins.formatting;
 
 null_ls.setup({
     sources = {
-        -- diagnostics
-        diagnostics.eslint,
         -- formatting
         formatting.prettier,
         formatting.prismaFmt,
