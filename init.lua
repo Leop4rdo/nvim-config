@@ -12,4 +12,6 @@ require('plugins.lsp')
 require('plugins.null-ls')
 require('plugins.text-helpers')
 require('plugins.noice')
+require('plugins.treesitter')
+
 

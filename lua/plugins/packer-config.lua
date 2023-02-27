@@ -34,6 +34,8 @@ return require('packer').startup(function ()
         }
     }
 
+	use 'mfussenegger/nvim-jdtls'
+
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
         requires = { {'nvim-lua/plenary.nvim'} }
@@ -42,6 +44,8 @@ return require('packer').startup(function ()
     use('neovim/nvim-lspconfig')
 	use('jose-elias-alvarez/null-ls.nvim')
 	use('MunifTanjim/prettier.nvim')
+
+	use('nvim-treesitter/nvim-treesitter')
 
 	use('rmagatti/alternate-toggler')
 	use('windwp/nvim-autopairs')
